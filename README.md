@@ -53,3 +53,17 @@ Translations for our applications are done through [crowdin](https://crowdin.com
 | `apps/`     | The home for each standalone application.                                      |
 | `config/`   | Shared infrastructure packages and configurations.                             |
 | `packages/` | Shared code packages covering UI, shared functionality, and shared utilities.  |
+
+## Development
+
+### Required Setup
+
+1. **Create Required Directory**
+   First, create the following directory structure for generated files:
+   ```bash
+   mkdir -p apps/web/src/utils/__generated__
+   ```
+
+2. **Environment Setup**
+   Copy the `.env.defaults` file to `.env` and modify any environment variables as needed for your local development environment.
+
