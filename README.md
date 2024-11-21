@@ -56,6 +56,13 @@ Translations for our applications are done through [crowdin](https://crowdin.com
 
 ## Development
 
+The app uses:
+
+- yarn v3.2.3
+- node v18.16.0
+
+It's recommended to use [nvm](https://github.com/nvm-sh/nvm) to manage node versions.
+
 ### Required Setup
 
 1. **Create Required Directory**
@@ -66,4 +73,3 @@ Translations for our applications are done through [crowdin](https://crowdin.com
 
 2. **Environment Setup**
    Copy the `.env.defaults` file to `.env` and modify any environment variables as needed for your local development environment.
-
